@@ -4,18 +4,6 @@ import os
 from fpdf import FPDF
 import base64
 
-st.markdown(
-    """
-    <style>
-    body, .stApp {
-        direction: rtl;
-        text-align: right;
-        font-family: 'Arial', sans-serif;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 st.set_page_config(page_title="FinAI - الذكاء المالي", layout="centered")
 
 # --- العنوان ---
